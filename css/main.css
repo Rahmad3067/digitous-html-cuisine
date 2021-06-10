@@ -83,6 +83,10 @@
 }
 
 .logo-bl {
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.new-op {
+    opacity: 0.2;
 }
