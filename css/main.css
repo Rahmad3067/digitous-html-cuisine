@@ -1,3 +1,25 @@
+@font-face {
+    font-family: courgette;
+    src: url(../font/Courgette-Regular.ttf);
+}
+@font-face {
+    font-family: oswald;
+    src: url(../font/Oswald-VariableFont_wght.ttf);
+}
+.font-1 {
+    font-family: courgette;
+}
+.font-nav{
+    font-family: oswald;
+}
+
+
+
+
+
+
+
+
 .image-post1{
     background: url("../img/articles/suzette/suzette-header.jpg") no-repeat center center/cover;
     height:60vh;
@@ -37,4 +59,30 @@
 }
 .card-img-overlay {
     position:  relative!important;
+}
+
+
+.op-cuisin-t {
+    opacity: 0.8;
+}
+
+
+.big-l {
+    font-size: 5em;
+    margin-top: -30px;
+}
+
+.neg-mar{
+    margin-top: -25px;
+}
+
+.img-antoine {
+    height: 150px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+.logo-bl {
+    width: 6rem;
+    height: 6rem;
 }
