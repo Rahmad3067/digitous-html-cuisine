@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="stylesheet" href="./css/team.css">
+    <link rel="stylesheet" href="./css/homepage.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" >
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Notre équipe</title>
+    <title>Cui'zine</title>
 </head>
 <body>
   <!--header-->
@@ -33,46 +33,33 @@
             </nav>
                 </div>
             <div class="row d-flex justify-content-center align-center p-5">
-              <h1 class="text-center font-1">On apprend en enseignant</h1>
-              <h3 class="text-center font-1">On apprend en enseignant</h3>
+              <img class="logo-white " src="./img/logo_square_white.png" alt='logo'>
+              <h1 class="text-center font-1">Cui'zine</h1>
+              <p class='text-center font-1'>Le mag cuisine</p>
             </div>
         </div>
     </header>
     <!--main-->
     <main class="container">
         
-        <div class="row">
-            <div class="col-10 row d-flex pt-5">
-            <!--Left bar Images of the team-->
-            <div class="col text-center">
-              <img class="team-img" src="./img/team/tony.jpg" alt="Tony">
-              <h2 class="team-name font-1"><strong>Tony</strong></h2>
-              <h5 class="font-nav">Rédacteur en chef</h5>
-              
+      <div class="row">
+        <div class="col-10">
+          <div class="my-3 p-3 bg-body shadow-sm">
+            <h6 class=" pb-2 mb-0 text-center">Deniers articles </h6>
+            <div class="d-flex text-muted pt-3">
+              <img src="img/recipes/paella/paella-small.jpg" class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="180" height="110" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#007bff"></rect><text x="50%" y="50%" fill="#007bff" dy=".3em"></text></img>
+        
+              <p class="pb-3 mb-0 small lh-sm ms-3">
+                <a href="post.html"> <strong class="d-block text-gray-dark pb-2 f-z"> La Paëlla à la maison</strong></a>
+                Une paëlla rapide, pas chère et goûteuse.
+              </p>
             </div>
-          
-                <div class="col text-center">
-                  <img class="team-img" src="./img/team/clementine.jpg" alt="Tony">
-                  <h2 class="font-1"><strong>Clémentine</strong></h2>
-                  <h5 class="team-job">Journaliste culinaire</h5>
-
-                </div>
-                
-                
-               <div class="col text-center">
-                 <img class="team-img" src="./img/team/antoine.jpg" alt="Tony">
-                 <a class="team-link" href="team-member.html">
-                  <h2 class="font-1"><strong>Antoine</strong></h2>
-                  <h5 class="font-nav">Goûteur professionel</h5>
-              </a>
-
-               </div>
-                
-            </div>
-            
-            
-            <!--Right bar-->
-            <div class="col-2">
+            <div class="previous-page mt-3">
+              <a class="change-page-link" href="index.html"><h5><< Voir les articles suivants</h5></a>
+          </div>
+          </div>
+        </div>
+        <div class="col-2">
           <div class="row ">
             <div class="col ">
               <h3 class="mt-5">Recherche</h3>
@@ -92,44 +79,13 @@
                   <li class="fa fa-twitter px-2"></li>
                 </ul>
               </div>
+
             </div>
-          
           </div>
 
         </div>
       </div>
-    </main>
-    <div class="container">
-      <div class="row">
-        <div class="col-10 row d-flex">
-          <!--Left bar Images of the team-->
-          <div class="col text-center">
-            <img class="team-img" src="./img/team/tony.jpg" alt="Tony">
-            <h2 class="team-name font-1"><strong>Tony</strong></h2>
-            <h5 class="font-nav">Rédacteur en chef</h5>
-            
-          </div>
-        
-              <div class="col text-center">
-                <img class="team-img" src="./img/team/clementine.jpg" alt="Tony">
-                <h2 class="font-1"><strong>Clémentine</strong></h2>
-                <h5 class="team-job">Journaliste culinaire</h5>
-
-              </div>
-              
-              
-             <div class="col text-center">
-               <img class="team-img" src="./img/team/antoine.jpg" alt="Tony">
-               <a class="team-link" href="team-member.html">
-                <h2 class="font-1"><strong>Antoine</strong></h2>
-                <h5 class="font-nav">Goûteur professionel</h5>
-            </a>
-
-             </div>
-              
-          </div>
-      </div>
-    </div>
+      </main>
       <!--footer-->
     <footer class="container text-white bg-dark" style="max-width:100%" style="height: 9rem">
       <div class="row d-flex space-between-evenly py-5 px-5">
@@ -162,5 +118,6 @@
             </div>
           </div>
     </footer>
+    <script src="./JS/bootstrap.bundle.js"></script>
 </body>
 </html>

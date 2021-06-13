@@ -40,3 +40,14 @@
 .card-img-overlay {
     position:  relative!important;
 }
+
+
+
+.f-z {
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}

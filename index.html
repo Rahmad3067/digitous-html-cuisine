@@ -19,28 +19,18 @@
         <div class="card bg-dark text-white image-header">
             <div class="card-img-overlay">
 
-                <nav class="navbar navbar-expand-lg navbar-light border-bottom ">
-                    <h1 class="navbar-brand text-light font-1">Cui'zine</h1>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                      <ul class="navbar-nav font-nav">
-                        <li class="nav-item active">
-                          <a class="nav-link  text-light" href="#">Accueil <span class="sr-only"></span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link text-light" href="#">Equipe</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link text-light" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link  text-light" href="#">Contact</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </nav>
+              <nav class="navbar border-bottom">
+                <div class="nav-items">
+                    <a class="nav-logo" href="index.html">Cui'zine</a>
+                    <ul>
+                        <li><a class="nav-links" href="index.html">Accueil</a></li>
+                        <li><a class="nav-links" href="team.html">Equipe</a></li>
+                        <li><a class="nav-links" href="post.html">Blog</a></li>
+                        <li><a class="nav-links" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+            </nav>
                 </div>
             <div class="row d-flex justify-content-center align-center p-5">
               <img class="logo-white " src="./img/logo_square_white.png" alt='logo'>
@@ -53,14 +43,14 @@
     <main class="container">
         
       <div class="row">
-        <div class="col-8">
+        <div class="col-10">
           <div class="my-3 p-3 bg-body shadow-sm">
             <h6 class=" pb-2 mb-0 text-center">Deniers articles </h6>
             <div class="d-flex text-muted pt-3">
               <img src="img/articles/suzette/suzette-small.jpg" class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="180" height="110" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#007bff"></rect><text x="50%" y="50%" fill="#007bff" dy=".3em"></text></img>
         
               <p class="pb-3 mb-0 small lh-sm ms-3">
-                <strong class="d-block text-gray-dark pb-2">Chez Suzette, la nouvelle crêperie qui fait parler d'elle</strong>
+                <a href="recipe.html"> <strong class="d-block text-gray-dark pb-2 f-z"> Chez Suzette, la nouvelle crêperie qui fait parler d'elle</strong></a>
                 La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées au froment ou au sarrazin!
               </p>
             </div>
@@ -68,7 +58,8 @@
               <img src="./img/articles/metro/metro-small.jpg"  class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="180" height="110" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#e83e8c"></rect><text x="50%" y="50%" fill="#e83e8c" dy=".3em"></text></img>
         
               <p class="pb-3 mb-0 small lh-sm  ms-3 ">
-                <strong class="d-block text-gray-dark pb-2">Le Métro dessert</strong>
+                
+                <a href="recipe.html"><strong class="d-block text-gray-dark pb-2 f-z">Le Métro dessert</strong></a>
                 Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. Ils ont décidé de réunir leur deux passions dans un restaurant à la déco inspiré du métro parisien. A voir absolument, mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne son avis
               </p>
             </div>
@@ -76,13 +67,16 @@
               <img src="./img/articles/vitaly/vitaly-small.jpg" class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="180" height="110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#6f42c1"></rect><text x="50%" y="50%" fill="#6f42c1" dy=".3em"></text></img>
         
               <p class="pb-3 mb-0 small lh-sm  ms-3">
-                <strong class="d-block text-gray-dark pb-2">Vitaly, le végan italien</strong>
+                <a href="recipe.html"><strong class="d-block text-gray-dark pb-2 f-z">Vitaly, le végan italien</strong></a>
                 Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de l'Italie à portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour vous.
               </p>
             </div>
+            <div class="previous-page mt-3">
+              <a class="change-page-link" href="blog-2.html"><h5><< Voir les articles précédents</h5></a>
+          </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-2">
           <div class="row ">
             <div class="col ">
               <h3 class="mt-5">Recherche</h3>
